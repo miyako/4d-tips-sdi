@@ -1,0 +1,131 @@
+﻿{
+	"objects": {
+		"photoGroup": {
+			"bounds": {
+				"left": 5,
+				"top": 5,
+				"width": 202,
+				"height": 233
+			}
+		},
+		"photoFrame": {
+			"bounds": {
+				"left": 5,
+				"top": 5,
+				"width": 202,
+				"height": 233
+			}
+		},
+		"photo": {
+			"bounds": {
+				"left": 10,
+				"top": 10,
+				"width": 192,
+				"height": 223
+			}
+		},
+		"firstName": {
+			"bounds": {
+				"left": 215,
+				"top": 10,
+				"width": 150,
+				"height": 24
+			}
+		},
+		"lastName": {
+			"bounds": {
+				"left": 375,
+				"top": 10,
+				"width": 175,
+				"height": 24
+			}
+		},
+		"firstName1": {
+			"bounds": {
+				"left": 215,
+				"top": 42,
+				"width": 155,
+				"height": 17
+			}
+		},
+		"firstName5": {
+			"bounds": {
+				"left": 435,
+				"top": 42,
+				"width": 115,
+				"height": 17
+			}
+		},
+		"firstName2": {
+			"bounds": {
+				"left": 215,
+				"top": 65,
+				"width": 335,
+				"height": 17
+			}
+		},
+		"firstName8": {
+			"bounds": {
+				"left": 215,
+				"top": 85,
+				"width": 335,
+				"height": 119
+			}
+		},
+		"ExportGroup": {
+			"bounds": {
+				"left": 517,
+				"top": 190,
+				"width": 48,
+				"height": 48
+			}
+		},
+		"Export": {
+			"bounds": {
+				"left": 517,
+				"top": 190,
+				"width": 48,
+				"height": 48
+			}
+		},
+		"dragIcon": {
+			"bounds": {
+				"left": 523,
+				"top": 210,
+				"width": 32,
+				"height": 24
+			}
+		},
+		"Save": {
+			"bounds": {
+				"left": 472,
+				"top": 203,
+				"width": 32,
+				"height": 32
+			}
+		}
+	},
+	"page": 1,
+	"sizeX": 0,
+	"sizeY": -5,
+	"minX": 0,
+	"minY": 0,
+	"maxX": 32767,
+	"maxY": 32767,
+	"resizeX": false,
+	"resizeY": false,
+	"bounds": {
+	<!--#4DCODE
+	C_LONGINT:C283($1;$left;$2;$top;$3;$right;$4;$bottom)
+	$left:=$1
+	$top:=$2
+	$width:=$3
+	$height:=$4
+	-->
+		"left": $4dtext($left),
+		"top": $4dtext($top),
+		"width": $4dtext($width),
+		"height": $4dtext($height)
+	},
+	"geometryStamp": 635
+}

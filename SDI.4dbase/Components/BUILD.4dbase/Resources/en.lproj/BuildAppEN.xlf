@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--    
+   Translation file for 4D products.
+   Copyright (C) 2007-2013 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v14" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+         <note>The character "%" (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable's name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="P0" resname="BuildApp0">
+            <trans-unit id="170" resname="BuildApp0_Application">
+               <source>Application</source>
+               <target>Application</target>
+            </trans-unit>
+            <trans-unit id="135" resname="BuildApp0_ApplicationName">
+               <source>Application Name:</source>
+               <target>Application Name:</target>
+            </trans-unit>
+            <trans-unit id="144" resname="BuildApp0_Build">
+               <source>Build</source>
+               <target>Build</target>
+            </trans-unit>
+            <trans-unit id="168" resname="BuildApp0_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="172" resname="BuildApp0_ClientServer">
+               <source>Client/Server</source>
+               <target>Client/Server</target>
+            </trans-unit>
+            <trans-unit id="171" resname="BuildApp0_CompiledStructure">
+               <source>Compiled structure</source>
+               <target>Compiled structure</target>
+            </trans-unit>
+            <trans-unit id="136" resname="BuildApp0_DestinationFolder">
+               <source>Destination Folder:</source>
+               <target>Destination Folder:</target>
+            </trans-unit>
+            <trans-unit id="174" resname="BuildApp0_Licenses">
+               <source>Licenses &amp; Certificate</source>
+               <target>Licenses &amp; Certificate</target>
+            </trans-unit>
+            <trans-unit id="173" resname="BuildApp0_Plugins">
+               <source>Plugins &amp; components</source>
+               <target>Plugins &amp; components</target>
+            </trans-unit>
+            <trans-unit id="169" resname="BuildApp0_SaveSettings">
+               <source>Save settings</source>
+               <target>Save settings</target>
+            </trans-unit>
+            <trans-unit id="59" resname="BuildApp0_WindowTitle">
+               <source>Build Application</source>
+               <target>Build Application</target>
+            </trans-unit>
+            <trans-unit id="73" resname="Buildapp0_selectAFolder">
+               <source>Select a folder</source>
+               <target>Select a folder</target>
+            </trans-unit>
+         </group>
+         <group id="P1" resname="BuildApp2">
+            <trans-unit id="81" resname="BuildApp1_4DRuntimeVolumeLicenseLocation">
+               <source>4D Volume Desktop Location:</source>
+               <target>4D Volume Desktop Location:</target>
+            </trans-unit>
+            <trans-unit id="80" resname="BuildApp1_Application">
+               <source>Build stand-alone Application</source>
+               <target>Build stand-alone Application</target>
+            </trans-unit>
+            <trans-unit id="79" resname="BuildApp1_ApplicationType">
+               <source>Application type</source>
+               <target>Application type</target>
+            </trans-unit>
+            <trans-unit id="78" resname="BuildApp1_Infos1">
+               <source>This operation can be used to build an application from your compiled structure by integrating a "4D Volume Desktop".</source>
+               <target>This operation can be used to build an application from your compiled structure by integrating a "4D Volume Desktop".</target>
+            </trans-unit>
+            <trans-unit id="86" resname="BuildApp1_Infos2">
+               <source>The application will be built in a "Final application" folder inside the destination folder.
+The "Plugins", "Resources", and "Components" folders located next to the structure will also be copied into it.</source>
+               <target>The application will be built in a "Final application" folder inside the destination folder.
+The "Plugins", "Resources", and "Components" folders located next to the structure will also be copied into it.</target>
+            </trans-unit>
+            <trans-unit id="56" resname="BuildApp1_SelectRVL">
+               <source>Select a 4D Volume Desktop</source>
+               <target>Select a 4D Volume Desktop</target>
+            </trans-unit>
+            <trans-unit id="52" resname="BuildApp1_TxtAlertRVL">
+               <source>In order to build a double-clickable application, you must select a 4D Volume Desktop</source>
+               <target>In order to build a double-clickable application, you must select a 4D Volume Desktop</target>
+            </trans-unit>
+         </group>
+         <group id="P2" resname="BuildApp1">
+            <trans-unit id="127" resname="BuildApp2_CompiledApplication">
+               <source>Build compiled structure</source>
+               <target>Build compiled structure</target>
+            </trans-unit>
+            <trans-unit id="134" resname="BuildApp2_CompiledStructureType">
+               <source>Compiled structure type</source>
+               <target>Compiled structure type</target>
+            </trans-unit>
+            <trans-unit id="127" resname="BuildApp2_Component">
+               <source>Build component</source>
+               <target>Build component</target>
+            </trans-unit>
+            <trans-unit id="128" resname="BuildApp2_IncludeFolders">
+               <source>Include related folders</source>
+               <target>Include related folders</target>
+            </trans-unit>
+            <trans-unit id="104" resname="BuildApp2_Infos0">
+               <source>This operation is used to create a "compiled structure" or a "component".</source>
+               <target>This operation is used to create a "compiled structure" or a "component".</target>
+            </trans-unit>
+            <trans-unit id="105" resname="BuildApp2_Infos1">
+               <source>A compiled structure can be opened by 4D Developer, 4D Desktop or 4D Server.
+Source code will be removed from compiled structure.</source>
+               <target>A compiled structure can be opened by 4D Developer, 4D Desktop or 4D Server.
+Source code will be removed from compiled structure.</target>
+            </trans-unit>
+            <trans-unit id="106" resname="BuildApp2_Infos2">
+               <source>A component is intended to be used by another structure and must be placed
+in the "Components" folder of this structure.</source>
+               <target>A component is intended to be used by another structure and must be placed
+in the "Components" folder of this structure.</target>
+            </trans-unit>
+            <trans-unit id="130" resname="BuildApp2_Infos3">
+               <source>The compiled structure will be built in the "Compiled" folder.</source>
+               <target>The compiled structure will be built in the "Compiled" folder.</target>
+            </trans-unit>
+            <trans-unit id="130" resname="BuildApp2_Infos4">
+               <source>This option allows to copy the "Plugins", "Resources" and "Components" folders beside the compiled structure.</source>
+               <target>This option allows to copy the "Plugins", "Resources" and "Components" folders beside the compiled structure.</target>
+            </trans-unit>
+            <trans-unit id="130" resname="BuildApp2_Infos5">
+               <source>The compiled structure will be built in the "Components" folder. It will be included in a "package" suffixed ".4dbase".
+The "Resources" folder will also be copied into this package.</source>
+               <target>The compiled structure will be built in the "Components" folder. It will be included in a "package" suffixed ".4dbase".
+The "Resources" folder will also be copied into this package.</target>
+            </trans-unit>
+         </group>
+         <group id="P3" resname="BuildApp3">
+            <trans-unit id="58" resname="BuildApp3_4DClientLocation">
+               <source>4D Client location:</source>
+               <target>4D Client location:</target>
+            </trans-unit>
+            <trans-unit id="57" resname="BuildApp3_4DRuntimeVolumeLicenseLocation">
+               <source>4D Volume Desktop Location:</source>
+               <target>4D Volume Desktop Location:</target>
+            </trans-unit>
+            <trans-unit id="57" resname="BuildApp3_4DServerLocation">
+               <source>4D Server location:</source>
+               <target>4D Server location:</target>
+            </trans-unit>
+            <trans-unit id="61" resname="BuildApp3_AllowUpdateMac">
+               <source>Allow automatic update of Macintosh client application </source>
+               <target>Allow automatic update of Macintosh client application </target>
+            </trans-unit>
+            <trans-unit id="62" resname="BuildApp3_AllowUpdateWin">
+               <source>Allow automatic update of Windows client application </source>
+               <target>Allow automatic update of Windows client application </target>
+            </trans-unit>
+            <trans-unit id="54" resname="BuildApp3_BuildClientApplication">
+               <source>Build client application</source>
+               <target>Build client application</target>
+            </trans-unit>
+            <trans-unit id="53" resname="BuildApp3_BuildServerApplication">
+               <source>Build server application</source>
+               <target>Build server application</target>
+            </trans-unit>
+            <trans-unit id="51" resname="BuildApp3_ClientAndServerApplications">
+               <source>Client and server applications</source>
+               <target>Client and server applications</target>
+            </trans-unit>
+            <trans-unit id="63" resname="BuildApp3_ClientLocationMac">
+               <source>4D Volume Desktop Macintosh location:</source>
+               <target>4D Volume Desktop Macintosh location:</target>
+            </trans-unit>
+            <trans-unit id="64" resname="BuildApp3_ClientLocationWin">
+               <source>4D Volume Desktop Windows location:</source>
+               <target>4D Volume Desktop Windows location:</target>
+            </trans-unit>
+            <trans-unit id="59" resname="BuildApp3_CopyClientsInsideServer">
+               <source>Copy of client applications inside the server application</source>
+               <target>Copy of client applications inside the server application</target>
+            </trans-unit>
+            <trans-unit id="52" resname="BuildApp3_CurrentVersion">
+               <source>Current version:</source>
+               <target>Current version:</target>
+            </trans-unit>
+            <trans-unit id="51" resname="BuildApp3_Infos0">
+               <source>This operation is used to create a server and a client, and to associate them.</source>
+               <target>This operation is used to create a server and a client, and to associate them.</target>
+            </trans-unit>
+            <trans-unit id="56" resname="BuildApp3_InfosClient">
+               <source>The client will be built for the current platform and can only be launched on it.
+It can connect to a server running on either Macintosh or Windows.</source>
+               <target>The client will be built for the current platform and can only be launched on it.
+It can connect to a server running on either Macintosh or Windows.</target>
+            </trans-unit>
+            <trans-unit id="60" resname="BuildApp3_InfosClientsUpadte">
+               <source>This operation allows the server to automatically send the client applications each time they are updated.</source>
+               <target>This operation allows the server to automatically send the client applications each time they are updated.</target>
+            </trans-unit>
+            <trans-unit id="55" resname="BuildApp3_InfosServer">
+               <source>The server will be built for the current platform and can only be launched on it.
+Macintosh and Windows clients will be able to connect to it.</source>
+               <target>The server will be built for the current platform and can only be launched on it.
+Macintosh and Windows clients will be able to connect to it.</target>
+            </trans-unit>
+            <trans-unit id="56" resname="BuildApp3_SelectClient">
+               <source>Select a 4D Client</source>
+               <target>Select a 4D Client</target>
+            </trans-unit>
+            <trans-unit id="53" resname="BuildApp3_SelectClient_Mac">
+               <source>Select the Macintosh client application</source>
+               <target>Select the Macintosh client application</target>
+            </trans-unit>
+            <trans-unit id="55" resname="BuildApp3_SelectClient_Win">
+               <source>Select the Windows client application</source>
+               <target>Select the Windows client application</target>
+            </trans-unit>
+            <trans-unit id="56" resname="BuildApp3_SelectServer">
+               <source>Select a 4D Server</source>
+               <target>Select a 4D Server</target>
+            </trans-unit>
+            <trans-unit id="53" resname="BuildApp3_TxtAlertCS">
+               <source>In order to build a client-server application, you must select a 4D Server (above) and a 4D Client (below).</source>
+               <target>In order to build a client-server application, you must select a 4D Server (above) and a 4D Client (below).</target>
+            </trans-unit>
+            <trans-unit id="67" resname="Buildapp3_DataLinkingLabel">
+               <source>Data linking mode based upon the</source>
+               <target>Data linking mode based upon the</target>
+            </trans-unit>
+            <trans-unit id="68" resname="Buildapp3_DataLinkingMode_1">
+               <source>Application name</source>
+               <target>Application name</target>
+            </trans-unit>
+            <trans-unit id="69" resname="Buildapp3_DataLinkingMode_2">
+               <source>Application path</source>
+               <target>Application path</target>
+            </trans-unit>
+         </group>
+         <group resname="BuildApp4">
+            <trans-unit id="65" resname="BuildApp4_Active">
+               <source>Active</source>
+               <target>Active</target>
+            </trans-unit>
+            <trans-unit id="67" resname="BuildApp4_ID">
+               <source>ID</source>
+               <target>ID</target>
+            </trans-unit>
+            <trans-unit id="60" resname="BuildApp4_Infos1">
+               <source>The selected plugins and components will be integrated in the application.</source>
+               <target>The selected plugins and components will be integrated in the application.</target>
+            </trans-unit>
+            <trans-unit id="66" resname="BuildApp4_PluginsAndComponents">
+               <source>Plugins and components</source>
+               <target>Plugins and components</target>
+            </trans-unit>
+            <trans-unit id="68" resname="BuildApp4_Type">
+               <source>Type</source>
+               <target>Type</target>
+            </trans-unit>
+         </group>
+         <group id="P5" resname="BuildApp5">
+            <trans-unit id="71" resname="BuildApp5_Date">
+               <source>Date</source>
+               <target>Date</target>
+            </trans-unit>
+            <trans-unit id="61" resname="BuildApp5_Infos1">
+               <source>The licenses of the array will be integrated in the application.</source>
+               <target>The licenses of the array will be integrated in the application.</target>
+            </trans-unit>
+            <trans-unit id="72" resname="BuildApp5_Master">
+               <source>Master</source>
+               <target>Master</target>
+            </trans-unit>
+            <trans-unit id="73" resname="BuildApp5_Path">
+               <source>Path</source>
+               <target>Path</target>
+            </trans-unit>
+            <trans-unit id="69" resname="BuildApp5_Product">
+               <source>License #</source>
+               <target>License #</target>
+            </trans-unit>
+            <trans-unit id="61" resname="Buildapp5_macosX8AndHigherCertificate">
+               <source>OS X signing certificate</source>
+               <target>OS X signing certificate</target>
+            </trans-unit>
+            <trans-unit id="62" resname="Buildapp5_signApplicationWithYourCertificate">
+               <source>Sign application</source>
+               <target>Sign application</target>
+            </trans-unit>
+            <trans-unit id="63" resname="Buildapp5_whenCertificateIsIntegrated">
+               <source>By default, Apple requires that applications downloaded from the internet be signed by the developer.</source>
+               <target>By default, Apple requires that applications downloaded from the internet be signed by the developer.</target>
+            </trans-unit>
+            <trans-unit id="64" resname="Buildapp5_certifcateName">
+               <source>Name of certificate:</source>
+               <target>Name of certificate:</target>
+            </trans-unit>
+            <trans-unit id="65" resname="Buildapp5_Offer">
+               <source>License</source>
+               <target>License</target>
+            </trans-unit>
+            <trans-unit id="66" resname="Buildapp5_Expiration">
+               <source>Expiration date</source>
+               <target>Expiration date</target>
+            </trans-unit>
+            <trans-unit id="67" resname="BuildApp5_Expansion">
+               <source>Expansion #</source>
+               <target>Expansion #</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

@@ -1,0 +1,24 @@
+﻿{
+	"sizeX": 325,
+	"sizeY": 225,
+	"minX": 0,
+	"minY": 0,
+	"maxX": 32767,
+	"maxY": 32767,
+	"resizeX": false,
+	"resizeY": false,
+	"bounds": {
+		<!--#4DCODE
+		C_LONGINT:C283($1;$left;$2;$top;$3;$right;$4;$bottom)
+		$left:=$1
+		$top:=$2
+		$width:=$3
+		$height:=$4
+		-->	
+		"left": $4dtext($left),
+		"top": $4dtext($top),
+		"width": $4dtext($width),
+		"height": $4dtext($height)
+	},
+	"geometryStamp": 894
+}

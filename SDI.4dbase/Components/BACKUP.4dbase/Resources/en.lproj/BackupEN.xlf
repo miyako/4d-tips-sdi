@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2014 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v14">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="171" resname="STR# ID 171">
+            <trans-unit id="1">
+               <source>Building distinct values...</source>
+               <target>Building distinct values...</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>User</source>
+               <target>User</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Custom Menus</source>
+               <target>Custom Menus</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Log File Name: </source>
+               <target>Log File Name: </target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>An interruption occurred while the data was being flushed to disk. Run 4D Tools to see if the data file is OK.</source>
+               <target>An interruption occurred while the data was being flushed to disk. Run 4D Tools to see if the data file is OK.</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>The Log File contains some data that has not been saved in the database.</source>
+               <target>The Log File contains some data that has not been saved in the database.</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>You should try to restore the Log File from your last backup if you want to retrieve the data.</source>
+               <target>You should try to restore the Log File from your last backup if you want to retrieve the data.</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>The database contains some data that was not saved in the Log File.</source>
+               <target>The database contains some data that was not saved in the Log File.</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>You should backup your database and start with a new Log File.</source>
+               <target>You should backup your database and start with a new Log File.</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>Waiting for record to be unlocked by process #</source>
+               <target>Waiting for record to be unlocked by process #</target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>The Log File does not correspond to the data file.</source>
+               <target>The Log File does not correspond to the data file.</target>
+            </trans-unit>
+            <trans-unit id="12">
+               <source>This is not the current Log File of this data file.</source>
+               <target>This is not the current Log File of this data file.</target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>You need to backup your database before you can create a Log File. Click OK to start the backup.</source>
+               <target>You need to backup your database before you can create a Log File. Click OK to start the backup.</target>
+            </trans-unit>
+            <trans-unit id="14">
+               <source>The correct Log File for this data file could not be found. Try to find it. If you cannot find the Log File, make a full backup of the data before creating a Log File.</source>
+               <target>The correct Log File for this data file could not be found. Try to find it. If you cannot find the Log File, make a full backup of the data before creating a Log File.</target>
+            </trans-unit>
+            <trans-unit id="15">
+               <source>The link between the data file and the log file is not valid anymore (the data file has probably been moved). You must open a valid log file or create a new one.</source>
+               <target>The link between the data file and the log file is not valid anymore (the data file has probably been moved). You must open a valid log file or create a new one.</target>
+            </trans-unit>
+            <trans-unit id="16" resname="LogFileNotFound">
+               <source>The correct log file for this data file could not be found. You can try to locate the current log file or you can create a new one. If you decide to create a new one, the log file will not be activated until the next backup.</source>
+               <target>The correct log file for this data file could not be found. You can try to locate the current log file or you can create a new one. If you decide to create a new one, the log file will not be activated until the next backup.</target>
+            </trans-unit>
+            <trans-unit id="17" resname="SelDestFolderForRestFiles">
+               <source>Select</source>
+               <target>Select</target>
+            </trans-unit>
+            <trans-unit id="18" resname="IntegrateLogAfterRestore">
+               <source>Integrate one or more log file(s) after restore</source>
+               <target>Integrate one or more log file(s) after restore</target>
+            </trans-unit>
+         </group>
+         <group id="211" resname="STR# ID 211">
+            <trans-unit id="1">
+               <source>The old Log File cannot be opened again. You are now working without a Log File.</source>
+               <target>The old Log File cannot be opened again. You are now working without a Log File.</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>A copy of the Log File already exists. (Perhaps the previous backup was interrupted.)</source>
+               <target>A copy of the Log File already exists. (Perhaps the previous backup was interrupted.)</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>A new Log File cannot be created.</source>
+               <target>A new Log File cannot be created.</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>The new Log File cannot be opened.</source>
+               <target>The new Log File cannot be opened.</target>
+            </trans-unit>
+         </group>
+         <group id="3000" resname="Backup dlg entrelacement list">
+            <trans-unit id="1">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Low</source>
+               <target>Low</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Medium</source>
+               <target>Medium</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>High</source>
+               <target>High</target>
+            </trans-unit>
+         </group>
+         <group id="3001" resname="Backup dlg redondance list">
+            <trans-unit id="1">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Low</source>
+               <target>Low</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Medium</source>
+               <target>Medium</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>High</source>
+               <target>High</target>
+            </trans-unit>
+         </group>
+         <group id="3002" resname="Backup dlg compression list">
+            <trans-unit id="1">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Fast</source>
+               <target>Fast</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Compact</source>
+               <target>Compact</target>
+            </trans-unit>
+         </group>
+         <group id="3003" resname="Backup dlg segmentation list">
+            <trans-unit id="1">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>100 MB</source>
+               <target>100 MB</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>200 MB</source>
+               <target>200 MB</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>650 MB</source>
+               <target>650 MB</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>700 MB</source>
+               <target>700 MB</target>
+            </trans-unit>
+         </group>
+         <group id="3004" resname="Backup dlg frequency list">
+            <trans-unit id="1">
+               <source>Never</source>
+               <target>Never</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Daily</source>
+               <target>Daily</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Weekly</source>
+               <target>Weekly</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Monthly</source>
+               <target>Monthly</target>
+            </trans-unit>
+         </group>
+         <group id="3005" resname="Backup dlg save hour list">
+            <trans-unit id="1" translate="no">
+               <source>06:00:00</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>07:00:00</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>08:00:00</source>
+            </trans-unit>
+            <trans-unit id="4" translate="no">
+               <source>12:00:00</source>
+            </trans-unit>
+            <trans-unit id="5" translate="no">
+               <source>13:00:00</source>
+            </trans-unit>
+            <trans-unit id="6" translate="no">
+               <source>14:00:00</source>
+            </trans-unit>
+            <trans-unit id="7" translate="no">
+               <source>18:00:00</source>
+            </trans-unit>
+            <trans-unit id="8" translate="no">
+               <source>19:00:00</source>
+            </trans-unit>
+            <trans-unit id="9" translate="no">
+               <source>20:00:00</source>
+            </trans-unit>
+            <trans-unit id="10" translate="no">
+               <source>00:00:00</source>
+            </trans-unit>
+            <trans-unit id="11" translate="no">
+               <source>01:00:00</source>
+            </trans-unit>
+            <trans-unit id="12" translate="no">
+               <source>02:00:00</source>
+            </trans-unit>
+         </group>
+         <group id="3006" resname="Backup dlg weekly save hour list">
+            <trans-unit id="1">
+               <source>Never</source>
+               <target>Never</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>06:00:00</source>
+               <target>06:00:00</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>07:00:00</source>
+               <target>07:00:00</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>08:00:00</source>
+               <target>08:00:00</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>12:00:00</source>
+               <target>12:00:00</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>13:00:00</source>
+               <target>13:00:00</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>14:00:00</source>
+               <target>14:00:00</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>18:00:00</source>
+               <target>18:00:00</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>19:00:00</source>
+               <target>19:00:00</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>20:00:00</source>
+               <target>20:00:00</target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>00:00:00</source>
+               <target>00:00:00</target>
+            </trans-unit>
+            <trans-unit id="12">
+               <source>01:00:00</source>
+               <target>01:00:00</target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>02:00:00</source>
+               <target>02:00:00</target>
+            </trans-unit>
+         </group>
+         <group id="3007" resname="Backup dlg monthly save day list">
+            <trans-unit id="1">
+               <source>1st</source>
+               <target>1st</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>2nd</source>
+               <target>2nd</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>3rd</source>
+               <target>3rd</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>4th</source>
+               <target>4th</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>5th</source>
+               <target>5th</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>6th</source>
+               <target>6th</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>7th</source>
+               <target>7th</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>8th</source>
+               <target>8th</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>9th</source>
+               <target>9th</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>10th</source>
+               <target>10th</target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>11th</source>
+               <target>11th</target>
+            </trans-unit>
+            <trans-unit id="12">
+               <source>12th</source>
+               <target>12th</target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>13th</source>
+               <target>13th</target>
+            </trans-unit>
+            <trans-unit id="14">
+               <source>14th</source>
+               <target>14th</target>
+            </trans-unit>
+            <trans-unit id="15">
+               <source>15th</source>
+               <target>15th</target>
+            </trans-unit>
+            <trans-unit id="16">
+               <source>16th</source>
+               <target>16th</target>
+            </trans-unit>
+            <trans-unit id="17">
+               <source>17th</source>
+               <target>17th</target>
+            </trans-unit>
+            <trans-unit id="18">
+               <source>18th</source>
+               <target>18th</target>
+            </trans-unit>
+            <trans-unit id="19">
+               <source>19th</source>
+               <target>19th</target>
+            </trans-unit>
+            <trans-unit id="20">
+               <source>20th</source>
+               <target>20th</target>
+            </trans-unit>
+            <trans-unit id="21">
+               <source>21st</source>
+               <target>21st</target>
+            </trans-unit>
+            <trans-unit id="22">
+               <source>22nd</source>
+               <target>22nd</target>
+            </trans-unit>
+            <trans-unit id="23">
+               <source>23rd</source>
+               <target>23rd</target>
+            </trans-unit>
+            <trans-unit id="24">
+               <source>24th</source>
+               <target>24th</target>
+            </trans-unit>
+            <trans-unit id="25">
+               <source>25th</source>
+               <target>25th</target>
+            </trans-unit>
+            <trans-unit id="26">
+               <source>26th</source>
+               <target>26th</target>
+            </trans-unit>
+            <trans-unit id="27">
+               <source>27th</source>
+               <target>27th</target>
+            </trans-unit>
+            <trans-unit id="28">
+               <source>28th</source>
+               <target>28th</target>
+            </trans-unit>
+            <trans-unit id="29">
+               <source>Last</source>
+               <target>Last</target>
+            </trans-unit>
+         </group>
+         <group id="3008" resname="Backup dlg other day list">
+            <trans-unit id="1" translate="no">
+               <source>2</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>3</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>4</source>
+            </trans-unit>
+            <trans-unit id="4" translate="no">
+               <source>5</source>
+            </trans-unit>
+            <trans-unit id="5" translate="no">
+               <source>6</source>
+            </trans-unit>
+            <trans-unit id="6" translate="no">
+               <source>7</source>
+            </trans-unit>
+            <trans-unit id="7" translate="no">
+               <source>8</source>
+            </trans-unit>
+            <trans-unit id="8" translate="no">
+               <source>9</source>
+            </trans-unit>
+            <trans-unit id="9" translate="no">
+               <source>10</source>
+            </trans-unit>
+            <trans-unit id="10" translate="no">
+               <source>11</source>
+            </trans-unit>
+            <trans-unit id="11" translate="no">
+               <source>12</source>
+            </trans-unit>
+            <trans-unit id="12" translate="no">
+               <source>13</source>
+            </trans-unit>
+            <trans-unit id="13" translate="no">
+               <source>14</source>
+            </trans-unit>
+            <trans-unit id="14" translate="no">
+               <source>15</source>
+            </trans-unit>
+            <trans-unit id="15" translate="no">
+               <source>16</source>
+            </trans-unit>
+            <trans-unit id="16" translate="no">
+               <source>17</source>
+            </trans-unit>
+            <trans-unit id="17" translate="no">
+               <source>18</source>
+            </trans-unit>
+            <trans-unit id="18" translate="no">
+               <source>19</source>
+            </trans-unit>
+            <trans-unit id="19" translate="no">
+               <source>20</source>
+            </trans-unit>
+            <trans-unit id="20" translate="no">
+               <source>21</source>
+            </trans-unit>
+            <trans-unit id="21" translate="no">
+               <source>22</source>
+            </trans-unit>
+            <trans-unit id="22" translate="no">
+               <source>23</source>
+            </trans-unit>
+            <trans-unit id="23" translate="no">
+               <source>24</source>
+            </trans-unit>
+            <trans-unit id="24" translate="no">
+               <source>25</source>
+            </trans-unit>
+            <trans-unit id="25" translate="no">
+               <source>26</source>
+            </trans-unit>
+            <trans-unit id="26" translate="no">
+               <source>27</source>
+            </trans-unit>
+            <trans-unit id="27" translate="no">
+               <source>28</source>
+            </trans-unit>
+            <trans-unit id="28" translate="no">
+               <source>29</source>
+            </trans-unit>
+            <trans-unit id="29" translate="no">
+               <source>30</source>
+            </trans-unit>
+         </group>
+         <group id="3009" resname="Backup dlg set number list">
+            <trans-unit id="1" translate="no">
+               <source>1</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>2</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>3</source>
+            </trans-unit>
+            <trans-unit id="4" translate="no">
+               <source>4</source>
+            </trans-unit>
+            <trans-unit id="5" translate="no">
+               <source>5</source>
+            </trans-unit>
+            <trans-unit id="6" translate="no">
+               <source>6</source>
+            </trans-unit>
+            <trans-unit id="7" translate="no">
+               <source>7</source>
+            </trans-unit>
+         </group>
+         <group id="3010" resname="Backup dlg string">
+            <trans-unit id="1">
+               <source>Destination Folder</source>
+               <target>Destination Folder</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>KB</source>
+               <target>KB</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>MB</source>
+               <target>MB</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>File not found</source>
+               <target>File not found</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>Backup Structure File</source>
+               <target>Backup Structure File</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>Backup Data File</source>
+               <target>Backup Data File</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>Backup Log File</source>
+               <target>Backup Log File</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>Backup File</source>
+               <target>Backup File</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>Ready</source>
+               <target>Ready</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>Unknown</source>
+               <target>Unknown</target>
+            </trans-unit>
+         </group>
+         <group id="3030" resname="Backup xml entrelacement">
+            <trans-unit id="1" translate="no">
+               <source>low</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>medium</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>high</source>
+            </trans-unit>
+         </group>
+         <group id="3031" resname="Backup xml redondance">
+            <trans-unit id="1" translate="no">
+               <source>low</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>medium</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>high</source>
+            </trans-unit>
+         </group>
+         <group id="3032" resname="Backup xml compression">
+            <trans-unit id="1" translate="no">
+               <source>none</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>fast</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>compact</source>
+            </trans-unit>
+         </group>
+         <group id="3033" resname="Backup xml segmentation">
+            <trans-unit id="1" translate="no">
+               <source>none</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>100_Mo</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>200_Mo</source>
+            </trans-unit>
+            <trans-unit id="4" translate="no">
+               <source>650_Mo</source>
+            </trans-unit>
+            <trans-unit id="5" translate="no">
+               <source>700_Mo</source>
+            </trans-unit>
+            <trans-unit id="6" translate="no">
+               <source>other</source>
+            </trans-unit>
+         </group>
+         <group id="3034" resname="Backup xml save frequency">
+            <trans-unit id="1" translate="no">
+               <source>none</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>daily</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>weekly</source>
+            </trans-unit>
+            <trans-unit id="4" translate="no">
+               <source>monthly</source>
+            </trans-unit>
+         </group>
+         <group id="3035" resname="Backup xml monthly save day">
+            <trans-unit id="1" translate="no">
+               <source>first_day_of_month</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>last_day_of_month</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>other_day</source>
+            </trans-unit>
+         </group>
+         <group id="3036" resname="Backup xml element string">
+            <trans-unit id="1" translate="no">
+               <source>xml_backup_document</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>backup_settings</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>general_settings</source>
+            </trans-unit>
+            <trans-unit id="4" translate="no">
+               <source>structure_file</source>
+            </trans-unit>
+            <trans-unit id="5" translate="no">
+               <source>data_file</source>
+            </trans-unit>
+            <trans-unit id="6" translate="no">
+               <source>log_file</source>
+            </trans-unit>
+            <trans-unit id="7" translate="no">
+               <source>optional_settings</source>
+            </trans-unit>
+            <trans-unit id="8" translate="no">
+               <source>backup_options</source>
+            </trans-unit>
+            <trans-unit id="9" translate="no">
+               <source>save_options</source>
+            </trans-unit>
+            <trans-unit id="10" translate="no">
+               <source>autosave_settings</source>
+            </trans-unit>
+            <trans-unit id="11" translate="no">
+               <source>daily_settings</source>
+            </trans-unit>
+            <trans-unit id="12" translate="no">
+               <source>weekly_settings</source>
+            </trans-unit>
+            <trans-unit id="13" translate="no">
+               <source>save_days</source>
+            </trans-unit>
+            <trans-unit id="14" translate="no">
+               <source>save_hours</source>
+            </trans-unit>
+            <trans-unit id="15" translate="no">
+               <source>monthly_settings</source>
+            </trans-unit>
+         </group>
+         <group id="3037" resname="Backup xml attribute string">
+            <trans-unit id="1" translate="no">
+               <source>set_number</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>save_folder</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>included_file</source>
+            </trans-unit>
+            <trans-unit id="4" translate="no">
+               <source>entrelacement</source>
+            </trans-unit>
+            <trans-unit id="5" translate="no">
+               <source>redondance</source>
+            </trans-unit>
+            <trans-unit id="6" translate="no">
+               <source>compression_rate</source>
+            </trans-unit>
+            <trans-unit id="7" translate="no">
+               <source>backup_segmentation</source>
+            </trans-unit>
+            <trans-unit id="8" translate="no">
+               <source>other_segmentation_size</source>
+            </trans-unit>
+            <trans-unit id="9" translate="no">
+               <source>check_backup</source>
+            </trans-unit>
+            <trans-unit id="10" translate="no">
+               <source>erase_oldest_backup_before_save</source>
+            </trans-unit>
+            <trans-unit id="11" translate="no">
+               <source>save_before_erase_oldest_backup</source>
+            </trans-unit>
+            <trans-unit id="12" translate="no">
+               <source>save_frequency</source>
+            </trans-unit>
+            <trans-unit id="13" translate="no">
+               <source>save_if_no_change</source>
+            </trans-unit>
+            <trans-unit id="14" translate="no">
+               <source>save_hour</source>
+            </trans-unit>
+            <trans-unit id="15" translate="no">
+               <source>save_on_monday</source>
+            </trans-unit>
+            <trans-unit id="16" translate="no">
+               <source>save_on_tuesday</source>
+            </trans-unit>
+            <trans-unit id="17" translate="no">
+               <source>save_on_wednesday</source>
+            </trans-unit>
+            <trans-unit id="18" translate="no">
+               <source>save_on_thursday</source>
+            </trans-unit>
+            <trans-unit id="19" translate="no">
+               <source>save_on_friday</source>
+            </trans-unit>
+            <trans-unit id="20" translate="no">
+               <source>save_on_saturday</source>
+            </trans-unit>
+            <trans-unit id="21" translate="no">
+               <source>save_on_sunday</source>
+            </trans-unit>
+            <trans-unit id="22" translate="no">
+               <source>monday_save_hour</source>
+            </trans-unit>
+            <trans-unit id="23" translate="no">
+               <source>tuesday_save_hour</source>
+            </trans-unit>
+            <trans-unit id="24" translate="no">
+               <source>wednesday_save_hour</source>
+            </trans-unit>
+            <trans-unit id="25" translate="no">
+               <source>thursday_save_hour</source>
+            </trans-unit>
+            <trans-unit id="26" translate="no">
+               <source>friday_save_hour</source>
+            </trans-unit>
+            <trans-unit id="27" translate="no">
+               <source>saturday_save_hour</source>
+            </trans-unit>
+            <trans-unit id="28" translate="no">
+               <source>sunday_save_hour</source>
+            </trans-unit>
+            <trans-unit id="29" translate="no">
+               <source>save_day</source>
+            </trans-unit>
+            <trans-unit id="30" translate="no">
+               <source>other_save_day</source>
+            </trans-unit>
+            <trans-unit id="31" translate="no">
+               <source>last_backup_date</source>
+            </trans-unit>
+            <trans-unit id="32" translate="no">
+               <source>current_set</source>
+            </trans-unit>
+         </group>
+         <group id="3038" resname="Backup xml string">
+            <trans-unit id="1" translate="no">
+               <source>1.0</source>
+            </trans-unit>
+            <trans-unit id="2" translate="no">
+               <source>ISO-8859-1</source>
+            </trans-unit>
+            <trans-unit id="3" translate="no">
+               <source>backup</source>
+            </trans-unit>
+            <trans-unit id="4" translate="no">
+               <source>.xml</source>
+            </trans-unit>
+            <trans-unit id="5" translate="no">
+               <source>true</source>
+            </trans-unit>
+            <trans-unit id="6" translate="no">
+               <source>false</source>
+            </trans-unit>
+         </group>
+         
+         <group id="3039" resname="Backup restore action list">
+            <trans-unit id="1">
+               <source>Addition</source>
+               <target>Addition</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Deletion</source>
+               <target>Deletion</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Modification</source>
+               <target>Modification</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Start of Transaction</source>
+               <target>Start of Transaction</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>Validation of Transaction</source>
+               <target>Validation of Transaction</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>Cancellation of Transaction</source>
+               <target>Cancellation of Transaction</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>Opening of Data File</source>
+               <target>Opening of Data File</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>Closing of Data File</source>
+               <target>Closing of Data File</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>Start of Flush</source>
+               <target>Start of Flush</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>End of Flush</source>
+               <target>End of Flush</target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>Addition of a field</source>
+               <target>Addition of a field</target>
+            </trans-unit>
+            <trans-unit id="12">
+               <source>Addition of a table</source>
+               <target>Addition of a table</target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>Modification of a field</source>
+               <target>Modification of a field</target>
+            </trans-unit>
+            <trans-unit id="14">
+               <source>Addition of an index</source>
+               <target>Addition of an index</target>
+            </trans-unit>
+            <trans-unit id="15">
+               <source>Deletion of an index</source>
+               <target>Deletion of an index</target>
+            </trans-unit>
+           <trans-unit id="16">
+              <source>Creation of a Context</source>
+              <target>Creation of a Context</target>
+            </trans-unit>
+            <trans-unit id="17">
+              <source>Closing of a Context</source>
+              <target>Closing of a Context</target>
+            </trans-unit>
+            <trans-unit id="18">
+              <source>Adding a BLOB</source>
+               <target>Adding a BLOB</target>
+            </trans-unit>
+            <trans-unit id="19">
+              <source>Modifying a BLOB</source>
+               <target>Modifying a BLOB</target>
+            </trans-unit>
+            <trans-unit id="20">
+              <source>Deleting a BLOB</source>
+               <target>Deleting a BLOB</target>
+            </trans-unit>
+            <trans-unit id="21">
+             <source>Starting Backup</source>
+             <target>Backuping database</target>
+            </trans-unit>
+            <trans-unit id="22">
+               <source>Truncating Table</source>
+               <target>Truncating Table</target>
+            </trans-unit>
+            <trans-unit id="23">
+               <source>Sequence Number</source>
+               <target>Sequence Number</target>
+            </trans-unit>
+         </group>
+         
+         <group id="3040" resname="Backup restore header list">
+            <trans-unit id="1">
+               <source>Action</source>
+               <target>Action</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Table</source>
+               <target>Table</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>User</source>
+               <target>User</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Date</source>
+               <target>Date</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>Hour</source>
+               <target>Hour</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>Process</source>
+               <target>Process</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>Record/BLOB</source>
+               <target>Record/BLOB</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>Size</source>
+               <target>Size</target>
+            </trans-unit>
+        <trans-unit id="9">
+          <source>Values</source>
+          <target>Values</target>
+        </trans-unit>
+        <trans-unit id="10">
+          <source>Operation#</source>
+          <target>Operation#</target>
+        </trans-unit>
+        </group>
+         <group id="3041" resname="Backup">
+            <trans-unit id="1">
+               <source>after</source>
+               <target>after</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>before</source>
+               <target>before</target>
+            </trans-unit>
+         </group>
+         <group id="3042" resname="Backup">            
+            <trans-unit id="1">               
+               <source>Seconds</source>               
+               <target>Seconds</target>               
+            </trans-unit>            
+            <trans-unit id="2">
+               <source>Minutes</source>
+               <target>Minutes</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Hours</source>
+               <target>Hours</target>
+            </trans-unit>
+         </group>
+         <group id="3043" resname="Backup">
+            <trans-unit id="1">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Remove</source>
+               <target>Remove</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Replace</source>
+               <target>Replace</target>
+            </trans-unit>
+         </group>
+         <group id="3044" resname="STR# ID 3044">
+            <trans-unit id="1">
+               <source>No backup module is installed.</source>
+               <target>No backup module is installed.</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>A backup is currently executing.</source>
+               <target>A backup is currently executing.</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Backup</source>
+               <target>Backup</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Waiting for all transactions and indexing to complete.</source>
+               <target>Waiting for all transactions and indexing to complete.</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>There is no Log File for this database.</source>
+               <target>There is no Log File for this database.</target>
+            </trans-unit>
+         </group>
+         <group id="3045" resname="Backup">            
+            <trans-unit id="1">               
+               <source>Seconds</source>               
+               <target>Seconds</target>               
+            </trans-unit>           
+            <trans-unit id="2">               
+               <source>Minutes</source>               
+               <target>Minutes</target>               
+            </trans-unit>            
+         </group> 
+         <group id="3100" resname="Backup Dialog string">
+            <trans-unit id="1">
+               <source>OK</source>
+               <target>OK</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>General</source>
+               <target>General</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>Scheduler</source>
+               <target>Scheduler</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>Backup Contents</source>
+               <target>Backup Contents</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>Backup File Destination Folder</source>
+               <target>Backup File Destination Folder</target>
+            </trans-unit>
+            <trans-unit id="8" resname="BackupDialogStringbackup">
+               <source>Backup</source>
+               <target>Backup</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>Structure File</source>
+               <target>Structure File</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>Data File</source>
+               <target>Data File</target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>Delete oldest backup file</source>
+               <target>Delete oldest backup file</target>
+            </trans-unit>
+            <trans-unit id="12">
+               <source>Add Folder</source>
+               <target>Add Folder</target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>Last backup:</source>
+               <target>Last backup:</target>
+            </trans-unit>
+            <trans-unit id="14">
+               <source>Backup Files</source>
+               <target>Backup Files</target>
+            </trans-unit>
+            <trans-unit id="15">
+               <source>Used Space:</source>
+               <target>Used Space:</target>
+            </trans-unit>
+            <trans-unit id="16">
+               <source>Free Space:</source>
+               <target>Free Space:</target>
+            </trans-unit>
+            <trans-unit id="17">
+               <source>Backup</source>
+               <target>Backup</target>
+            </trans-unit>
+            <trans-unit id="18">
+               <source>Advanced Settings</source>
+               <target>Advanced Settings</target>
+            </trans-unit>
+            <trans-unit id="19">
+               <source>Attachments:</source>
+               <target>Attachments:</target>
+            </trans-unit>
+            <trans-unit id="20">
+               <source>Interlacing Rate:</source>
+               <target>Interlacing Rate:</target>
+            </trans-unit>
+            <trans-unit id="21">
+               <source>Redundancy Rate:</source>
+               <target>Redundancy Rate:</target>
+            </trans-unit>
+            <trans-unit id="22">
+               <source>Compression Rate:</source>
+               <target>Compression Rate:</target>
+            </trans-unit>
+            <trans-unit id="23">
+               <source>Segment Size (Mb):</source>
+               <target>Segment Size (Mb):</target>
+            </trans-unit>
+            <trans-unit id="24">
+               <source>Backup only if the data file has been modified</source>
+               <target>Backup only if the data file has been modified</target>
+            </trans-unit>
+            <trans-unit id="25">
+               <source>Delete oldest backup file before backup</source>
+               <target>Delete oldest backup file before backup</target>
+            </trans-unit>
+            <trans-unit id="26">
+               <source>No automatic backup</source>
+               <target>No automatic backup</target>
+            </trans-unit>
+            <trans-unit id="27">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="28">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="29">
+               <source>Backup Frequency</source>
+               <target>Backup Frequency</target>
+            </trans-unit>
+            <trans-unit id="30">
+               <source>Monday</source>
+               <target>Monday</target>
+            </trans-unit>
+            <trans-unit id="31">
+               <source>Tuesday</source>
+               <target>Tuesday</target>
+            </trans-unit>
+            <trans-unit id="32">
+               <source>Wednesday</source>
+               <target>Wednesday</target>
+            </trans-unit>
+            <trans-unit id="33">
+               <source>Thursday</source>
+               <target>Thursday</target>
+            </trans-unit>
+            <trans-unit id="34">
+               <source>Friday</source>
+               <target>Friday</target>
+            </trans-unit>
+            <trans-unit id="35">
+               <source>Saturday</source>
+               <target>Saturday</target>
+            </trans-unit>
+            <trans-unit id="36">
+               <source>Sunday</source>
+               <target>Sunday</target>
+            </trans-unit>
+            <trans-unit id="37">
+               <source>Every</source>
+               <target>Every</target>
+            </trans-unit>
+            <trans-unit id="38">
+               <source>at</source>
+               <target>at</target>
+            </trans-unit>
+            <trans-unit id="39">
+               <source>User Structure File</source>
+               <target>User Structure File</target>
+            </trans-unit>
+            <trans-unit id="40" resname="BackupDialogStringlastBackupInformation">
+               <source>Last Backup Information</source>
+               <target>Last Backup Information</target>
+            </trans-unit>
+            <trans-unit id="41">
+               <source>Status:</source>
+               <target>Status:</target>
+            </trans-unit>
+            <trans-unit id="42">
+               <source>Backup file name:</source>
+               <target>Backup file name:</target>
+            </trans-unit>
+            <trans-unit id="43">
+               <source>Log backup file name:</source>
+               <target>Log backup file name:</target>
+            </trans-unit>
+            <trans-unit id="44">
+               <source>Next scheduled backup:</source>
+               <target>Next scheduled backup:</target>
+            </trans-unit>
+            <trans-unit id="45">
+               <source>Every</source>
+               <target>Every</target>
+            </trans-unit>
+            <trans-unit id="46">
+               <source>Archive</source>
+               <target>Archive</target>
+            </trans-unit>
+            <trans-unit id="47">
+               <source>Retry at the next scheduled date and time</source>
+               <target>Retry at the next scheduled date and time</target>
+            </trans-unit>
+            <trans-unit id="48">
+               <source>Retry after</source>
+               <target>Retry after</target>
+            </trans-unit>
+            <trans-unit id="49">
+               <source>Log Management</source>
+               <target>Log Management</target>
+            </trans-unit>
+            <trans-unit id="50">
+               <source>Use Log File:</source>
+               <target>Use Log File:</target>
+            </trans-unit>
+            <trans-unit id="51">
+               <source>Automatic Restore</source>
+               <target>Automatic Restore</target>
+            </trans-unit>
+            <trans-unit id="52">
+               <source>Restore last backup if database is damaged</source>
+               <target>Restore last backup if database is damaged</target>
+            </trans-unit>
+            <trans-unit id="53">
+               <source>Integrate last log if database is incomplete</source>
+               <target>Integrate last log if database is incomplete</target>
+            </trans-unit>
+            <trans-unit id="54">
+               <source>Start database after automatic restore</source>
+               <target>Start database after automatic restore</target>
+            </trans-unit>
+            <trans-unit id="55">
+               <source>Every</source>
+               <target>Every</target>
+            </trans-unit>
+            <trans-unit id="56">
+               <source>Every</source>
+               <target>Every</target>
+            </trans-unit>
+            <trans-unit id="57">
+               <source>week(s)</source>
+               <target>week(s)</target>
+            </trans-unit>
+            <trans-unit id="58">
+               <source>day(s)</source>
+               <target>day(s)</target>
+            </trans-unit>
+            <trans-unit id="59">
+               <source>month(s)</source>
+               <target>month(s)</target>
+            </trans-unit>
+            <trans-unit id="60">
+               <source>hour(s)</source>
+               <target>hour(s)</target>
+            </trans-unit>
+            <trans-unit id="61">
+               <source>Day</source>
+               <target>Day</target>
+            </trans-unit>
+            <trans-unit id="62">
+               <source>If active transactions or index operations:</source>
+               <target>If active transactions or index operations:</target>
+            </trans-unit>
+            <trans-unit id="63">
+               <source>Always wait for the end of operations</source>
+               <target>Always wait for the end of operations</target>
+            </trans-unit>
+            <trans-unit id="64">
+               <source>Abort backup after waiting:</source>
+               <target>Abort backup after waiting:</target>
+            </trans-unit>
+            <trans-unit id="65">
+               <source>If backup fails:</source>
+               <target>If backup fails:</target>
+            </trans-unit>
+            <trans-unit id="66">
+               <source>Keep only the last</source>
+               <target>Keep only the last</target>
+            </trans-unit>
+            <trans-unit id="67">
+               <source>backup files</source>
+               <target>backup files</target>
+            </trans-unit>
+            <trans-unit id="68">
+               <source>Delete oldest backup file</source>
+               <target>Delete oldest backup file</target>
+            </trans-unit>
+            <trans-unit id="69">
+               <source>backup</source>
+               <target>backup</target>
+            </trans-unit>
+            <trans-unit id="70" resname="BckRestore">
+               <source>Restore...</source>
+               <target>Restore...</target>
+            </trans-unit>
+            <trans-unit id="71">
+               <source>Rollback</source>
+               <target>Rollback</target>
+            </trans-unit>
+            <trans-unit id="72" resname="BackupDialogStringdatabaseProperties">
+               <source>Database properties...</source>
+               <target>Database properties...</target>
+            </trans-unit>
+            <trans-unit id="73">
+               <source>Data file is damaged.</source>
+               <target>Data file is damaged.</target>
+            </trans-unit>
+            <trans-unit id="74">
+               <source>Data file does not contain the last operations.</source>
+               <target>Data file does not contain the last operations.</target>
+            </trans-unit>
+            <trans-unit id="75">
+               <source>Integrate the current log file</source>
+               <target>Integrate the current log file</target>
+            </trans-unit>
+            <trans-unit id="76">
+               <source>Open database with a new log file</source>
+               <target>Open database with a new log file</target>
+            </trans-unit>
+            <trans-unit id="77">
+               <source>Rename the damaged data file to {FileName} and restore the last archive</source>
+               <target>Rename the damaged data file to {FileName} and restore the last archive</target>
+            </trans-unit>
+            <trans-unit id="78">
+               <source>Delete the damaged data file before restoring</source>
+               <target>Delete the damaged data file before restoring</target>
+            </trans-unit>
+            <trans-unit id="79">
+               <source>Destination folder of the restored files:</source>
+               <target>Destination folder of the restored files:</target>
+            </trans-unit>
+            <trans-unit id="80">
+               <source>Restore completed successfully</source>
+               <target>Restore completed successfully</target>
+            </trans-unit>
+            <trans-unit id="81">
+               <source>You cannot add this folder</source>
+               <target>You cannot add this folder</target>
+            </trans-unit>
+            <trans-unit id="82">
+               <source>N/A</source>
+               <target>N/A</target>
+            </trans-unit>
+            <trans-unit id="83">
+               <source>Error during restoration</source>
+               <target>Error during restoration</target>
+            </trans-unit>
+            <trans-unit id="84">
+               <source>Log file operations</source>
+               <target>Log file operations</target>
+            </trans-unit>
+            <trans-unit id="85">
+               <source>The log file is damaged. You should make a backup then create a new log file.</source>
+               <target>The log file is damaged. You should make a backup then create a new log file.</target>
+            </trans-unit>
+            <trans-unit id="86">
+               <source>Restoration of Data</source>
+               <target>Restoration of Data</target>
+            </trans-unit>
+            <trans-unit id="87">
+               <source>Integrate</source>
+               <target>Integrate</target>
+            </trans-unit>
+            <trans-unit id="88">
+               <source>Manual Restoring</source>
+               <target>Manual Restoring</target>
+            </trans-unit>
+            <trans-unit id="89">
+               <source>Log</source>
+               <target>Log</target>
+            </trans-unit>
+            <trans-unit id="90" resname="BackupDialogStringbackupDestination">
+               <source>Backup destination:</source>
+               <target>Backup destination:</target>
+            </trans-unit>
+            <trans-unit id="91">
+               <source>Backup in progress...</source>
+               <target>Backup in progress...</target>
+            </trans-unit>
+            <trans-unit id="92">
+               <source>Backup log file in progress...</source>
+               <target>Backup log file in progress...</target>
+            </trans-unit>
+            <trans-unit id="93">
+               <source>Verifying backup in progress...</source>
+               <target>Verifying backup in progress...</target>
+            </trans-unit>
+            <trans-unit id="94">
+               <source>Verifying log backup in progress...</source>
+               <target>Verifying log backup in progress...</target>
+            </trans-unit>
+            <trans-unit id="95">
+               <source>Backup Journal.txt</source>
+               <target>Backup Journal.txt</target>
+            </trans-unit>
+            <trans-unit id="96">
+               <source>starting at</source>
+               <target>starting at</target>
+            </trans-unit>
+            <trans-unit id="97">
+               <source>Restore log file</source>
+               <target>Restore log file</target>
+            </trans-unit>
+            <trans-unit id="98">
+               <source>The last operations recorded in the log file were not flushed in the data file.\rThey are now automatically recovered.</source>
+               <target>The last operations recorded in the log file were not flushed in the data file.\rThey are now automatically recovered.</target>
+            </trans-unit>
+            <trans-unit id="99">
+               <source>Do you want to open the restored database ?</source>
+               <target>Do you want to open the restored database ?</target>
+            </trans-unit>
+            <trans-unit id="100">
+               <source>Warning: This operation cannot be undone. Do you want to continue?</source>
+               <target>Warning: This operation cannot be undone. Do you want to continue?</target>
+            </trans-unit>
+            <trans-unit id="101">
+               <source>The backup file destination folder is invalid. Do you want to select a new pathname?\rIf you cancel, 4D will use their default destination folder.</source>
+               <target>The backup file destination folder is invalid. Do you want to select a new pathname?\rIf you cancel, 4D will use their default destination folder.</target>
+            </trans-unit>
+            <trans-unit id="102">
+               <source>A transaction is opened in this process. The backup cannot be launched.</source>
+               <target>A transaction is opened in this process. The backup cannot be launched.</target>
+            </trans-unit>
+            <trans-unit id="103">
+               <source>The maximum timeout for transactions to end in a concurent process has been reached. The backup cannot be launched.</source>
+               <target>The maximum timeout for transactions to end in a concurent process has been reached. The backup cannot be launched.</target>
+            </trans-unit>
+            <trans-unit id="104">
+               <source>Backup canceled by user.</source>
+               <target>Backup canceled by user.</target>
+            </trans-unit>
+            <trans-unit id="105">
+               <source>Destination folder is not valid.</source>
+               <target>Destination folder is not valid.</target>
+            </trans-unit>
+            <trans-unit id="106">
+               <source>Error during log file backup.</source>
+               <target>Error during log file backup.</target>
+            </trans-unit>
+            <trans-unit id="107">
+               <source>Error during backup.</source>
+               <target>Error during backup.</target>
+            </trans-unit>
+            <trans-unit id="108">
+               <source>Cannot find the backup file to be checked.</source>
+               <target>Cannot find the backup file to be checked.</target>
+            </trans-unit>
+            <trans-unit id="109">
+               <source>Error during backup file check.</source>
+               <target>Error during backup file check.</target>
+            </trans-unit>
+            <trans-unit id="110">
+               <source>Cannot find the log backup file to be checked.</source>
+               <target>Cannot find the log backup file to be checked.</target>
+            </trans-unit>
+            <trans-unit id="111">
+               <source>Error during log backup file check.</source>
+               <target>Error during log backup file check.</target>
+            </trans-unit>
+            <trans-unit id="112">
+               <source>No detected error.</source>
+               <target>No detected error.</target>
+            </trans-unit>
+            <trans-unit id="113">
+               <source>The list below shows all the performed operations recorded in the log file since the last backup.</source>
+               <target>The list below shows all the performed operations recorded in the log file since the last backup.</target>
+            </trans-unit>
+            <trans-unit id="114">
+               <source>By selecting a specific log action in the list above and clicking the Rollback button, 4D Application will close the current data file, restore and open the specified backup of the database and perform all the above logged actions including the selected one.</source>
+               <target>By selecting a specific log action in the list above and clicking the Rollback button, 4D Application will close the current data file, restore and open the specified backup of the database and perform all the above logged actions including the selected one.</target>
+            </trans-unit>
+            <trans-unit id="115">
+               <source>The rollback operation cannot be undone, but the current data file will be renamed and stored on the disk.</source>
+               <target>The rollback operation cannot be undone, but the current data file will be renamed and stored on the disk.</target>
+            </trans-unit>
+            <trans-unit id="116">
+               <source>Cancel the operation after</source>
+               <target>Cancel the operation after</target>
+            </trans-unit>
+            <trans-unit id="117">
+               <source>attempts</source>
+               <target>attempts</target>
+            </trans-unit>            
+            <trans-unit id="118">               
+               <source>An error has been detected during the log file integration.
+You must restore the data from your last backup in order to integrate all the operations contained in the log file.</source>               
+               <target>An error has been detected during the log file integration.
+You must restore the data from your last backup in order to integrate all the operations contained in the log file.</target>               
+            </trans-unit>            
+            <trans-unit id="119">       
+               <source>The archive was restored correctly. Do you want to open the restored database?</source>       
+               <target>The archive was restored correctly. Do you want to open the restored database?</target>               
+            </trans-unit>            
+            <trans-unit id="120">               
+               <source>Do you want to integrate another log file?</source>               
+               <target>Do you want to integrate another log file?</target>               
+            </trans-unit>  
+            <trans-unit id="121">
+               <source>The file you have chosen is not a valid log file. Do you want to choose another one?</source>
+               <target>The file you have chosen is not a valid log file. Do you want to choose another one?</target>              
+            </trans-unit>
+            <trans-unit id="122">               
+               <source>Right click in column headers to display specific fields.</source>              
+               <target>Right click in column headers to display specific fields.</target>              
+            </trans-unit>
+            <trans-unit id="123">               
+               <source>Folder or file names</source>              
+               <target>Folder or file names</target>
+            </trans-unit>
+            <trans-unit id="124">               
+               <source>Check All</source>               
+               <target>Check All</target>              
+            </trans-unit>
+            <trans-unit id="125">               
+               <source>Uncheck All</source>               
+               <target>Uncheck All</target>               
+            </trans-unit>
+          <trans-unit id="126">               
+               <source>This command cannot be used in a client/server environment</source>               
+               <target>This command cannot be used in a client/server environment</target>               
+            </trans-unit>  
+            <trans-unit id="127">               
+               <source>The maximum number of successive backup attempts has been reached. The automatic backup scheduler is temporarily deactivated. It will be reactivated subsequent to a manual backup or when the database is restarted.</source>               
+               <target>The maximum number of successive backup attempts has been reached. The automatic backup scheduler is temporarily deactivated. It will be reactivated subsequent to a manual backup or when the database is restarted.</target>  
+            </trans-unit>  
+            <trans-unit id="128">
+               <source>Backup File Destination</source>
+               <target>Backup File Destination</target>
+            </trans-unit>  
+            <trans-unit id="129">
+               <source>Double click on a line to get more information about the selected element.</source>
+               <target>Double click on a line to get more information about the selected element.</target>               
+            </trans-unit>              
+            <trans-unit id="130">             
+               <source>Analyze</source>
+               <target>Analyze</target>
+            </trans-unit>  
+            <trans-unit id="131" resname="Activate log file after backup">             
+               <source>The log file will be activated after the next backup of the data file. Do you want to start the backup automatically?</source>
+               <target>The log file will be activated after the next backup of the data file. Do you want to start the backup automatically?</target>
+            </trans-unit>  
+            <trans-unit id="132" resname="OpenDialogRVLExpl">             
+               <source>You pressed the "Alt" key. You can choose to create a new data file, to open an existing one or to restore a backup file. 
+Click on "Cancel" to open the database with the default data file.</source>
+               <target>You pressed the "Alt" key. You can choose to create a new data file, to open an existing one or to restore a backup file. 
+Click on "Cancel" to open the database with the default data file.</target>
+            </trans-unit> 
+            <trans-unit id="133" resname="DisableLogFile">          
+               <source>Disable Log File</source>               
+               <target>Disable Log File</target>              
+            </trans-unit>
+           <trans-unit id="134">
+              <source>The archive was restored correctly. Do you want to integrate a log file?</source>
+              <target>The archive was restored correctly. Do you want to integrate a log file?</target>
+           </trans-unit>
+           <trans-unit id="135">
+              <source>{count} operations were successfully integrated. Do you want to integrate another log file?</source>
+              <target>{count} operations were successfully integrated. Do you want to integrate another log file?</target>
+           </trans-unit>
+           <trans-unit id="136">
+              <source>Choose a log file to integrate.</source>
+              <target>Choose a log file to integrate.</target>
+           </trans-unit>
+		   <trans-unit id="137">
+              <source>The current log file cannot be used because it was created for a previous version of the database. It will be replaced and activated after a backup is performed. Do you want to backup now?</source>
+              <target>The current log file cannot be used because it was created for a previous version of the database. It will be replaced and activated after a backup is performed. Do you want to backup now?</target>
+           </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>
+

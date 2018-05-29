@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Preferences4D>
+
+  <BuildApp>
+    <BuildApplicationName />
+		
+    <BuildCompiled />
+    <IncludeAssociatedFolders />
+    <BuildComponent />
+    <BuildApplicationSerialized />
+    <BuildApplicationLight />
+		
+		<BuildWinDestFolder />
+		<BuildMacDestFolder />
+		
+    <SourcesFiles>
+			
+      <RuntimeVL>
+        <RuntimeVLIncludeIt />
+        <RuntimeVLMacFolder />
+				<RuntimeVLWinFolder />
+				<IsOEM />
+      </RuntimeVL>
+			
+      <CS>
+        <ServerIncludeIt />
+        <ClientMacIncludeIt />
+        <ClientWinIncludeIt />
+				<ServerMacFolder />
+				<ServerWinFolder />
+				<ClientWinFolderToWin />
+				<ClientWinFolderToMac />
+				<ClientMacFolderToWin />
+				<ClientMacFolderToMac />
+				<ServerIconWinPath />
+				<ServerIconMacPath />
+				<ClientMacIconForMacPath />
+				<ClientWinIconForMacPath />
+				<ClientMacIconForWinPath />
+				<ClientWinIconForWinPath />
+				<IsOEM />
+      </CS>
+    </SourcesFiles>
+		
+    <CS>
+      <BuildServerApplication />
+      <LastDataPathLookup />
+      <BuildCSUpgradeable />
+      <CurrentVers />
+      <HardLink />
+			<BuildV13ClientUpgrades />
+			<IPAddress />
+			<PortNumber />
+			<RangeVersMin />
+			<RangeVersMax />
+			<ServerSelectionAllowed />
+    </CS>
+		
+    <ArrayExcludedPluginName>
+      <ItemsCount>0</ItemsCount>
+		</ArrayExcludedPluginName>
+		
+    <ArrayExcludedPluginID>
+      <ItemsCount>0</ItemsCount>
+		</ArrayExcludedPluginID>
+		
+    <ArrayExcludedComponentName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedComponentName>
+		
+    <Licenses>
+      <ArrayLicenseMac>
+        <ItemsCount>0</ItemsCount>
+      </ArrayLicenseMac>
+      <ArrayLicenseWin>
+        <ItemsCount>0</ItemsCount>
+      </ArrayLicenseWin>
+    </Licenses>
+		
+    <SignApplication>
+      <MacSignature />
+			<MacCertificate />
+    </SignApplication>
+		
+		<RuntimeVL>
+			<LastDataPathLookup />
+		</RuntimeVL>
+		
+		<Versioning>
+      <Common>
+        <CommonVersion></CommonVersion>
+        <CommonCopyright></CommonCopyright>
+        <CommonCreator></CommonCreator>
+        <CommonComment></CommonComment>
+        <CommonCompanyName></CommonCompanyName>
+        <CommonFileDescription></CommonFileDescription>
+        <CommonInternalName></CommonInternalName>
+        <CommonLegalTrademark></CommonLegalTrademark>
+        <CommonPrivateBuild></CommonPrivateBuild>
+        <CommonSpecialBuild></CommonSpecialBuild>
+      </Common>
+			<RuntimeVL>
+				<RuntimeVLVersion></RuntimeVLVersion>
+				<RuntimeVLCopyright></RuntimeVLCopyright>
+				<RuntimeVLCreator></RuntimeVLCreator>
+				<RuntimeVLComment></RuntimeVLComment>
+				<RuntimeVLCompanyName></RuntimeVLCompanyName>
+				<RuntimeVLFileDescription></RuntimeVLFileDescription>
+				<RuntimeVLInternalName></RuntimeVLInternalName>
+				<RuntimeVLLegalTrademark></RuntimeVLLegalTrademark>
+				<RuntimeVLPrivateBuild></RuntimeVLPrivateBuild>
+				<RuntimeVLSpecialBuild></RuntimeVLSpecialBuild>
+			</RuntimeVL>
+			<Server>
+				<ServerVersion></ServerVersion>
+				<ServerCopyright></ServerCopyright>
+				<ServerCreator></ServerCreator>
+				<ServerComment></ServerComment>
+				<ServerCompanyName></ServerCompanyName>
+				<ServerFileDescription></ServerFileDescription>
+				<ServerInternalName></ServerInternalName>
+				<ServerLegalTrademark></ServerLegalTrademark>
+				<ServerPrivateBuild></ServerPrivateBuild>
+				<ServerSpecialBuild></ServerSpecialBuild>
+			</Server>
+			<Client>
+				<ClientVersion></ClientVersion>
+				<ClientCopyright></ClientCopyright>
+				<ClientCreator></ClientCreator>
+				<ClientComment></ClientComment>
+				<ClientCompanyName></ClientCompanyName>
+				<ClientFileDescription></ClientFileDescription>
+				<ClientInternalName></ClientInternalName>
+				<ClientLegalTrademark></ClientLegalTrademark>
+				<ClientPrivateBuild></ClientPrivateBuild>
+				<ClientSpecialBuild></ClientSpecialBuild>
+			</Client>
+		</Versioning>
+		
+  </BuildApp>
+
+</Preferences4D>

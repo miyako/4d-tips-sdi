@@ -1,0 +1,16 @@
+﻿<!--#4DCODE
+C_LONGINT:C283($1;$left;$2;$top;$3;$right;$4;$bottom)
+$left:=$1
+$top:=$2
+$width:=$3
+$height:=$4
+-->
+{
+	"bounds": {
+		"left": $4dtext($left),
+		"top": $4dtext($top),
+		"width": $4dtext($width),
+		"height": $4dtext($height)
+	},
+	"geometryStamp": 1
+}

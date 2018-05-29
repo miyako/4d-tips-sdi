@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2014 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v14">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="3100" resname="Backup Dialog string">
+            <trans-unit id="1138">
+               <target>Advanced</target>
+            </trans-unit>
+						<trans-unit id="1139">
+							<target>Create backup journal in verbose mode</target>
+						</trans-unit>
+						<trans-unit id="1140">
+							<target>Check archive file during backup</target>
+						</trans-unit>
+         </group>
+				 <group id="3004" resname="Backup dlg frequency list">
+					 <trans-unit id="5">
+						 <source>Hourly</source>
+						 <target>Hourly</target>
+					 </trans-unit>
+					 <trans-unit id="6">
+						 <source>Daily</source>
+						 <target>Daily</target>
+					 </trans-unit>
+				 </group>
+				 <group id="3007" resname="Backup dlg monthly save day list">
+					 <trans-unit id="30">
+						 <target>Day number</target>
+					 </trans-unit>
+					 <trans-unit id="31">
+						 <target>Time of day</target>
+					 </trans-unit>
+				 </group>
+      </body>
+   </file>
+</xliff>
+
